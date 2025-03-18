@@ -21,11 +21,12 @@ body {
     display: none;
 }
 
+header{
+    background:rgba(0, 0, 0, 1);
+}
 
 .header-container {
-    transform: translateX(20px);
     height: 96px;
-    background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -495,8 +496,22 @@ li {
 }
 
 @media (max-width:768px){
-    
+    .logo{
+        margin-left: 42px;
+        margin-right: 465px;
+    }
     .menu-link{
         display: inline-block;
     }
+    .nav-items{
+        display: none;
+    }
+    .main{
+        max-width:768px ;
+    }
+    .hero{
+        width: 768px;
+        transform: translateX(-20px);
+    }
+
 }
