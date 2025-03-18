@@ -513,5 +513,115 @@ li {
         width: 768px;
         transform: translateX(-20px);
     }
-
+    .mark2{
+        transform: translateX(-380px);
+        flex-direction: column;
+        align-items: center;
+    }
+    .mark2-photo{
+        width: 220px;
+        height: 243px;
+    }
+    .mark2-info{
+        transform: translateX(-50px);
+        width: 572px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mark2-text{
+        text-align: center;
+    }
+    .mark1{
+        flex-direction: column;
+        transform: translateX(-380px);
+        align-items: center;
+    }
+    .mark1-photo{
+        width: 220px;
+        height: 243px;
+    }
+    .mark1-info{
+        transform: translateX(50px);
+        width: 572px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mark1-text{
+        text-align: center;
+    }
+    .xx59{
+        flex-direction: column;
+        transform: translateX(-380px);
+        align-items: center;
+        margin-bottom: 400px;
+    }
+    .xx59-photo{
+        width: 220px;
+        height: 243px;
+    }
+    .xx59-info{
+        transform: translateX(-70px);
+        width: 572px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .xx59-title{
+        text-align: center;
+    }
+    .xx59-text{
+        text-align: center;
+    }
+    .headphones-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 223px;
+        height: 217px;
+    }
+    .headphones-photo {
+        width: 79.9158px; ;
+        height: 104px;
+    }
+    .headphones-title {
+        font-size: 15px;
+        letter-spacing: 1.07px;
+    }
+    .speakers-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 223px;
+        height: 217px;
+    }
+    .speakers-photo {
+        width: 84.04379272460938px;
+        height: 101px;
+    }
+    .speakers-ttile {
+        font-size: 15px;
+        letter-spacing: 1.07px;
+    }
+    .earphones-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 223px;
+        height: 217px;
+    }
+    .eraphones-photo {
+        width: 103px;
+        height: 104px;
+    }
+    .eraphones-title {
+        font-size: 15px;
+        letter-spacing: 1.07px;
+    }
+    .products-container{
+        transform: translateX(-170px);
+        width: 689px;
+        gap: 10px;
+    }
 }
