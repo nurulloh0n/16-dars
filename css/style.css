@@ -12,14 +12,18 @@ body {
 
 .container {
     max-width: 1480px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.menu-link{
+    display: none;
 }
 
 
-
-
 .header-container {
+    transform: translateX(20px);
     height: 96px;
     background-color: rgba(0, 0, 0, 1);
     display: flex;
@@ -488,4 +492,10 @@ li {
     font-weight: 700;
     line-height: 25px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:768px){
+    .menu-link{
+        display: inline-block;
+    }
 }
